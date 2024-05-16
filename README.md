@@ -1,23 +1,21 @@
-# 2021 DSC KR Hackathon: ❄️눈송이 유형 테스트❄️
-> DSC Sookmyung
-Team Gitribute(권은지, 남수연, 서희, 유지연)
+# 2024 Opensource 
+> 제주대학교
+Team 펠롱즈(김주현, 김소연, 곽예본)
 
 ### 사용 기술
 - Front-end: React Hook, Styled Components
 - Back-end: Django, GCP, mySQL
 
 ### 프로젝트 소개
-나는 어떤 유형의 눈송이일까? 숙명여대의 마스코트인 눈송이를 통해 내가 어떤 유형의 대학생인지 분석해보는 프로젝트입니다.
+ <유형 테스트 라이브러리를 개발>
+초보 개발자도, 개발 입문자도, 또는 컴퓨터에 관심 많은 마케터도! 
+누구나 유형 테스트 웹서비스를 쉽게 개발할 수 있도록, 라이브러리를 만들어 배포하려 합니다.
 
-### 스크린샷
-<img src="https://i.ibb.co/NxtbG8P/2021-02-06-2-58-04.png" alt="2021-02-06-2-58-04" border="0">
-<img src="https://i.ibb.co/vk1p8rf/2021-02-06-2-59-52.png" alt="2021-02-06-2-59-52" border="0">
-<img src="https://i.ibb.co/pJ5fwgM/2021-02-06-3-00-32.png" alt="2021-02-06-3-00-32" border="0">
-<img src="https://i.ibb.co/VqtVtGZ/2021-02-06-9-20-16.png" alt="2021-02-06-9-20-16" border="0">
-<p float="left">
-  <img align=top src="https://user-images.githubusercontent.com/53266682/165742185-f41cf885-c14a-4d04-be19-98f51811ebd5.png" border="0" width="540" />
-  <img align=top src="https://user-images.githubusercontent.com/53266682/165742202-8de7b18c-ae25-4099-b5d2-18c103654cb8.png" border="0" width="360" />
-</p>
+더욱 풍부하고, 다양한 컨텐츠가 세상에 많아지길 바라며!
+
+### 참고문헌
+1. 숙명여대 Team Gitribute(권은지, 남수연, 서희, 유지연)의 '2021 DSC KR Hackathon: ❄️눈송이 유형 테스트❄️'
+2. 
 
 ### 실행 방법
 1. 프로젝트 다운받기 (git clone https://github.com/dsc-sookmyung/2021-Noonsong-Test)
