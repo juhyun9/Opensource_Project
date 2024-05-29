@@ -4,3 +4,7 @@ body {
 #main {
     background-color: antiquewhite;
 }
+
+#qna {
+    display: none;
+}
