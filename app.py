@@ -2,11 +2,13 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def home():
     title = "제목을 입력해주세요"
     paragraph = "<나만의 MBTI 사이트입니다!> 와 같은 한 줄 설명해주세요."
     return render_template('home.html', title=title, paragraph=paragraph)
+
 
 @app.route('/update', methods=['POST'])
 def update_content():
@@ -14,8 +16,10 @@ def update_content():
     paragraph = "새로운 내용입니다! <br> 새로운 텍스트로 시작해 주십시오."
     return render_template('home.html', title=title, paragraph=paragraph)
 
+
 @app.route('/result', methods=['POST'])
 def result():
+
     # 여기서 로직에 따라 결과 페이지를 결정합니다.
     # 예를 들어, 사용자의 응답을 바탕으로 점수를 계산하고 결과를 결정합니다.
     # 계산 로직 및 알고리즘 짜야 해요!
@@ -44,6 +48,7 @@ def result():
         result_page = 'result-10.html'
 
     return render_template(f'page/{result_page}')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
