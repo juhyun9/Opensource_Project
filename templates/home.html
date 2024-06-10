@@ -1,71 +1,102 @@
 <!DOCTYPE html>
 <html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Opensource</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
 
-  <title>Opensource</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
-</head>
-
-<body>
+  <body>
     <div class="container">
       <section id="main" class="mx-auto my-5 py-5 px-3">
         <h1>{{ title }}</h1>
         <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-            <img src="{{ url_for('static', filename='img/main.png') }}" alt="mainImage" class="img-fluid">
+          <img
+            src="{{ url_for('static', filename='img/main.png') }}"
+            alt="mainImage"
+            class="img-fluid"
+          />
         </div>
         <p>{{ paragraph|safe }}</p>
-            <form action="{{ url_for('update_content') }}" method="post">
-                <button type="submit" class="btn btn-outline-danger mt-3">시작하기</button>
-            </form>
+        <form
+          action="{{ url_for('update_content') }}"
+          method="post"
+          id="startForm"
+        >
+          <button
+            type="submit"
+            class="btn btn-outline-danger mt-3"
+            id="startButton"
+          >
+            시작하기
+          </button>
+        </form>
       </section>
-      
+
       <section id="qna">
         <div class="status mx-auto mt-5">
-          <div class="statusBar">
-          </div>
+          <div class="statusBar"></div>
         </div>
-        <div class="qBox my-5 py-3 mx-auto">
-  
-        </div>
-  
+        <div class="qBox my-5 py-3 mx-auto"></div>
+
         <div class="row row-cols-1 row-cols-md-2 g-2 answerBox mx-auto">
           <div class="col">
             <div class="card">
-              <img src="./img/main.png" class="card-img-top leftImage" alt="...">
+              <img
+                src="../static/img/main.png"
+                class="card-img-top leftImage"
+                alt="..."
+              />
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src="./img/main.png" class="card-img-top rightImage" alt="...">
+              <img
+                src="../static/img/main.png"
+                class="card-img-top rightImage"
+                alt="..."
+              />
             </div>
           </div>
         </div>
-  
       </section>
       <section id="result" class="mx-auto my-5 py-5 px-3">
         <h1>당신의 결과는?!</h1>
-        <div class="resultname">
-  
-        </div>
-        <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-  
-        </div>
-        <div class="resultDesc">
-  
-        </div>
-        <button type="button" class="kakao mt-3 py-2 px-3" onclick="js:setShare()">공유하기</button>
+        <div class="resultname"></div>
+        <div
+          id="resultImg"
+          class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto"
+        ></div>
+        <div class="resultDesc"></div>
+        <button
+          type="button"
+          class="kakao mt-3 py-2 px-3"
+          onclick="js:setShare()"
+        >
+          공유하기
+        </button>
       </section>
-  
-      <script src="./js/data.js" charset="utf-8"></script>
-      <script src="./js/start.js" charset="utf-8"></script>
-      <script src="./js/share.js" charset="utf-8"></script>
+
+      <script src="../static/data.js" charset="utf-8"></script>
+      <script src="../static/start.js" charset="utf-8"></script>
+      <script src="../static/share.js" charset="utf-8"></script>
     </div>
   </body>
-
 </html>
