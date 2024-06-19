@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
 </head>
 
 <body>
@@ -21,7 +22,7 @@
         </div>
         <p>{{ paragraph|safe }}</p>
             <form action="{{ url_for('update_content') }}" method="post">
-                <button type="submit" class="btn btn-outline-danger mt-3">시작하기</button>
+                <button type="button" class="btn btn-outline-danger mt-3" onclick="js:begin()">시작하기</button>
             </form>
       </section>
       
@@ -31,10 +32,8 @@
           </div>
         </div>
         <div class="qBox my-5 py-3 mx-auto">
-  
         </div>
-  
-        <div class="row row-cols-1 row-cols-md-2 g-2 answerBox mx-auto">
+        <div class="row row-cols-1 row-cols-md-2 mt-5 g-2 answerBox mx-auto">
           <div class="col">
             <div class="card">
               <img src="./img/main.png" class="card-img-top leftImage" alt="...">
@@ -46,8 +45,8 @@
             </div>
           </div>
         </div>
-  
       </section>
+
       <section id="result" class="mx-auto my-5 py-5 px-3">
         <h1>당신의 결과는?!</h1>
         <div class="resultname">
@@ -62,9 +61,9 @@
         <button type="button" class="kakao mt-3 py-2 px-3" onclick="js:setShare()">공유하기</button>
       </section>
   
-      <script src="./js/data.js" charset="utf-8"></script>
-      <script src="./js/start.js" charset="utf-8"></script>
-      <script src="./js/share.js" charset="utf-8"></script>
+      <script src="../static/data.js" charset="utf-8"></script>
+      <script src="../static/start.js" charset="utf-8"></script>
+      <script src="../static/share.js" charset="utf-8"></script>
     </div>
   </body>
 
