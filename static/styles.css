@@ -29,6 +29,18 @@ body {
     color: whitesmoke;
 }
 
+.status{
+    height: 20px;
+    width:80%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.statusBar{
+    height: 100%;
+    background-color: antiquewhite;
+}
+
 #result {
     display: none;
 }

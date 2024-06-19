@@ -2,7 +2,7 @@ const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 
-const endPoint = 3;
+const endPoint = 12;
 const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 function calResult(){
@@ -97,6 +97,11 @@ function addAnswer(answerText, qIdx){
 }
 
 function goNext(qIdx){
+  if(qIdx+1 === endPoint){
+    goResult();
+    return
+  }
+
   var q = document.querySelector('.qBox');
   q.innerHTML = qnaList[qIdx].q;
   for(let i in qnaList[qIdx].a){
