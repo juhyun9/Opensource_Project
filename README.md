@@ -7,25 +7,25 @@ Team 펠롱즈(김주현, 김소연, 곽예본)
 - Back-end: Django, GCP, mySQL
 
 ### 프로젝트 소개
- <유형 테스트 라이브러리를 개발>
-초보 개발자도, 개발 입문자도, 또는 컴퓨터에 관심 많은 마케터도! 
+
+ <유형 테스트 틀 개발>
+초보 개발자도, 개발 입문자도, 또는 개발을 이용할 마음이 큰 마케터도! 
 누구나 유형 테스트 웹서비스를 쉽게 개발할 수 있도록, 라이브러리를 만들어 배포하려 합니다.
 
 더욱 풍부하고, 다양한 컨텐츠가 세상에 많아지길 바라며!
 
 ### 참고문헌
 1. 숙명여대 Team Gitribute(권은지, 남수연, 서희, 유지연)의 '2021 DSC KR Hackathon: ❄️눈송이 유형 테스트❄️'
-2. 
+2. 판다코딩(nani6765)의 MyMBTI 프로젝트
 
 ### 실행 방법
-1. 프로젝트 다운받기 (git clone https://github.com/dsc-sookmyung/2021-Noonsong-Test)
-2. 백엔드 폴더로 이동하기 (cd backend)
-3. 가상환경 만들기 (python -m venv myvenv)
-4. 가상환경 켜기 (source myvenv/Scripts/activate)
-5. 필요한 환경 설정 하기 (pip install -r requirements.txt)
-6. 프로젝트 폴더로 이동하기 (cd noonsongtest)
-7. 마이그레이션하기 (python manage.py makemigrations)
-8. 서버 돌리기 (python manage.py runserver)
-9. 프론트엔드 폴더로 이동하기 (cd ~ / cd frontend)
-10. 필요한 환경 설정 하기 (npm i)
-11. 시작하기 (yarn start)
+1. 프로젝트 다운받기 (git clone https://github.com/??)
+2. app.py파일로 이동
+3. 플라스크 설치 (pip install flask)
+4. app.py 파일 실행
+5. 로컬 링크로 이동
+
+
+### 변형 방법
+1. data.js 내의 오브젝트 타입의 데이터 파일을 원하는 형태의 파일로 바꿔주세요! (파일 위치)
+2. 시작 부분과 끝났을 때, 쓸 텍스트 변환 파일 바꿔주세요!(파일 위치)
