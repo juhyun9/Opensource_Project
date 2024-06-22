@@ -3,7 +3,7 @@ const url = 'https://twelvelovetype.netlify.app/';
 function setShare(){
   var resultImg = document.querySelector('#resultImg');
   var resultAlt = resultImg.firstElementChild.alt;
-  const shareTitle = '올레길 유형 테스트 결과';
+  const shareTitle = '올레코스 유형 테스트 결과';
   const shareDes = infoList[resultAlt].name;
   const shareImage = url + 'img/image-' + resultAlt + '.png';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
