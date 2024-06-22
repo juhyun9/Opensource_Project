@@ -14,7 +14,7 @@ const qnaList = [
       { type: [0, 3, 2, 8] },
       { type: [1, 6, 5, 10] },
       { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
-      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
+      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?! (즉흥적)', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
   {
@@ -22,8 +22,8 @@ const qnaList = [
     a: [
       { type: [1, 3, 2, 10, 8] },
       { type: [7, 9, 11] },
-      { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
-      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
+      { answer: 'a. (훑어보고) ‘내가 설문대 할망이라면’…… ‘그러면 할아방도 있나?’….(상상의 나래를 펼친다.)', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. (한줄씩 읽어보고) 제주 신화에서 제주도를 만들었다고 전해지는 여신이구나! 또…(사실 기반의 지식으로 기억해둔다.)', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
   {
@@ -31,8 +31,8 @@ const qnaList = [
     a: [
       { type: [1, 3, 2, 10, 8] },
       { type: [7, 9, 11] },
-      { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
-      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
+      { answer: 'a. 헐!! 그러게? 올레길은 왜 올레길이야? 만약에 올레길이 100코스면 너는 걸을거야? 만약에 코스 걷다가 뱀이 나타나서 인사하면???…….', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 검색해보자. 26개인 이유가 있겠지 뭐. 만든 사람이 전문가니까 알아서 잘 만든거 아닐까?', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
   {
@@ -40,8 +40,8 @@ const qnaList = [
     a: [
       { type: [1, 3, 2, 10, 8] },
       { type: [7, 9, 11] },
-      { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
-      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
+      { answer: 'a. 싸인이랑 사진 받으러, 같이 환호하러 달려간다.', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 멀리서 구경하고 내 갈길로 다시 간다.', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
   {
@@ -49,8 +49,8 @@ const qnaList = [
     a: [
       { type: [1, 3, 2, 10, 8] },
       { type: [7, 9, 11] },
-      { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
-      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
+      { answer: 'a. 어머어머!!!! 인생샷 꼭 건져야해!!!! (이리저리 포즈를 취해본다.) ', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 아 조금 부끄러운데…흠.. 그래도 이왕 찍어나 볼까…..?(조심스럽게 포즈를 취해본다.)', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
   {
@@ -58,8 +58,8 @@ const qnaList = [
     a: [
       { type: [1, 3, 2, 10, 8] },
       { type: [7, 9, 11] },
-      { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
-      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
+      { answer: 'a. 아 그래…?ㅠㅜㅠ 나는 나름 괜찮은 것 같은데... 일단 남은 여행도 재밌게 마무리하자!', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 엥? 여태 잘다닌거 아니였어? 뭐가 문제였어?? 일단 남은 여행도 재밌게 마무리하자!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
   {
@@ -67,8 +67,8 @@ const qnaList = [
     a: [
       { type: [1, 3, 2, 10, 8] },
       { type: [7, 9, 11] },
-      { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
-      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
+      { answer: 'a. 어머ㅠㅜㅜㅠ 너무 예쁘다.. 우리의 여행이라고 나타나준건가봐!!!!', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 오! 대박이다. 여기 돌고래 보이는 명소인가? 무슨 주기가 있는건가??', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
 ]
