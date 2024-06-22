@@ -4,6 +4,8 @@ const qnaList = [
     a: [
       { type: [1, 2, 4, 9] },
       { type: [0, 3, 6, 5, 10, 8] },
+      { answer: 'a. 이왕 제주도도 왔는데 이것저것 어떻게든 생각해둔 일정대로 다 해보자!!!', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 언젠가 또 올 수도 있는데 여유롭게 다니지 뭐~~!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
   {
@@ -11,6 +13,8 @@ const qnaList = [
     a: [
       { type: [0, 3, 2, 8] },
       { type: [1, 6, 5, 10] },
+      { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
   {
@@ -18,6 +22,8 @@ const qnaList = [
     a: [
       { type: [1, 3, 2, 10, 8] },
       { type: [7, 9, 11] },
+      { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
   {
@@ -25,6 +31,8 @@ const qnaList = [
     a: [
       { type: [1, 3, 2, 10, 8] },
       { type: [7, 9, 11] },
+      { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
   {
@@ -32,6 +40,8 @@ const qnaList = [
     a: [
       { type: [1, 3, 2, 10, 8] },
       { type: [7, 9, 11] },
+      { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
   {
@@ -39,6 +49,8 @@ const qnaList = [
     a: [
       { type: [1, 3, 2, 10, 8] },
       { type: [7, 9, 11] },
+      { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
   {
@@ -46,6 +58,8 @@ const qnaList = [
     a: [
       { type: [1, 3, 2, 10, 8] },
       { type: [7, 9, 11] },
+      { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
   {
@@ -53,6 +67,8 @@ const qnaList = [
     a: [
       { type: [1, 3, 2, 10, 8] },
       { type: [7, 9, 11] },
+      { answer: 'a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 어? 저기 맛있겠는데? 한번 가볼까?!', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
     ]
   },
 ]
