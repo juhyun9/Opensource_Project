@@ -19,7 +19,7 @@ Team 펠롱즈(김주현, 김소연, 곽예본)
 2. 판다코딩(nani6765)의 MyMBTI 프로젝트
 
 ### 실행 방법
-1. 프로젝트 다운받기 (git clone https://github.com/??)
+1. 프로젝트 다운받기 (git clone https://github.com/juhyun9/Opensource_Project)
 2. app.py파일로 이동
 3. 플라스크 설치 (pip install flask)
 4. app.py 파일 실행
@@ -28,4 +28,4 @@ Team 펠롱즈(김주현, 김소연, 곽예본)
 
 ### 변형 방법
 1. data.js 내의 오브젝트 타입의 데이터 파일을 원하는 형태의 파일로 바꿔주세요! (파일 위치)
-2. 시작 부분과 끝났을 때, 쓸 텍스트 변환 파일 바꿔주세요!(파일 위치)
+2. 시작 부분과 끝났을 때, 쓸 텍스트 변환 파일 바꿔주세요!(파일 위치) > 진행중
