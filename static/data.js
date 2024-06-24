@@ -5,11 +5,11 @@ const qnaList = [
       {
         answer:
           "a. 이왕 제주도도 왔는데 이것저것 어떻게든 생각해둔 일정대로 다 해보자!!!",
-        type: ["cow", "tiger", "dragon", "chick"],
+        type: ['2','11','8','9'],
       },
       {
         answer: "b. 언젠가 또 올 수도 있는데 여유롭게 다니지 뭐~~!",
-        type: ["mouse", "rabbit", "horse", "snake", "dog", "monkey"],
+        type: ['2','11','8','9'],
       },
     ],
   },
@@ -19,11 +19,11 @@ const qnaList = [
       {
         answer:
           "a. 후후.. 이미 유명 맛집부터 제주도민 맛집 플랜 C까지 생각해뒀지.",
-        type: ["cow", "tiger", "dragon", "chick"],
+        type: ['2','17','18','9'],
       },
       {
         answer: "b. 어? 저기 맛있겠는데? 한번 가볼까?! (즉흥적)",
-        type: ["mouse", "rabbit", "horse", "snake", "dog", "monkey"],
+        type: ['1','11','8','9'],
       },
     ],
   },
@@ -33,7 +33,7 @@ const qnaList = [
       {
         answer:
           "a. (훑어보고) ‘내가 설문대 할망이라면’…… ‘그러면 할아방도 있나?’….(상상의 나래를 펼친다.)",
-        type: ["cow", "tiger", "dragon", "chick"],
+        type: ['1','7','8','9'],
       },
       {
         answer:
@@ -48,7 +48,7 @@ const qnaList = [
       {
         answer:
           "a. 헐!! 그러게? 올레길은 왜 올레길이야? 만약에 올레길이 100코스면 너는 걸을거야? 만약에 코스 걷다가 뱀이 나타나서 인사하면???…….",
-        type: ["cow", "tiger", "dragon", "chick"],
+        type: ['1','11','8','9'],
       },
       {
         answer:
@@ -62,7 +62,7 @@ const qnaList = [
     a: [
       {
         answer: "a. 싸인이랑 사진 받으러, 같이 환호하러 달려간다.",
-        type: ["cow", "tiger", "dragon", "chick"],
+        type: ['2','11','8','9'],
       },
       {
         answer: "b. 멀리서 구경하고 내 갈길로 다시 간다.",
