@@ -1,4 +1,4 @@
-const url = 'https://twelvelovetype.netlify.app/';
+const url = 'https://github.io/Opensource_Project';
 
 function setShare(){
   var resultImg = document.querySelector('#resultImg');
@@ -8,7 +8,7 @@ function setShare(){
   const shareImage = url + 'img/image-' + resultAlt + '.png';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
 
-  Kakao.Link.sendDefault({
+  share.Link.sendDefault({
     objectType: 'feed',
     content: {
       title: shareTitle,
