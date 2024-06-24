@@ -1,10 +1,12 @@
 body {
-    background-color:black;
+    background-color:white;
 }
 #main {
-    background-color: antiquewhite;
-    width: 80%;
-    
+    background-color: white;
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.103);
+    position: relative;
 }
 
 #qna {
@@ -12,21 +14,21 @@ body {
 }
 
 .qBox{
-    background-color: whitesmoke;
+    background-color: white;
     text-align: center;
     border-radius: 0px;
 }
 
 .answerList{
-    background-attachment: whitesmoke;
+    background-attachment: white;
     border-radius: 20px;
     display: block;
     width: 100%;
     border: 0px;
 }
 .answerList:hover, .answerList:focus{
-    background-color: black;
-    color: whitesmoke;
+    background-color: white;
+    color: rgb(0, 0, 0);
 }
 
 .status{
@@ -38,7 +40,7 @@ body {
 
 .statusBar{
     height: 100%;
-    background-color: antiquewhite;
+    background-color: rgb(151, 151, 151);
 }
 
 #result {
